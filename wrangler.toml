@@ -1,0 +1,13 @@
+name = "wikipedia-telegram-bot"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[triggers]
+crons = ["0 */2 * * *"]
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "KV_POSTED"
+id = "b215c1aecbdb48cc81ecdc90a6f0ef54"
